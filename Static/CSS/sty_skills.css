@@ -1,0 +1,37 @@
+body {
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+.skill-box {
+    background-color: beige;
+    color: chocolate;
+    padding: 20px;
+    margin: 20px auto;
+    border: 2px solid yellowgreen;
+    border-radius: 10px;
+    width: 450px;
+}
+
+.skill-box .skill-name {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.skill-box .skill-progress {
+    background-color: antiquewhite;
+    padding: 5px;
+    position: relative;
+    height: 35px;
+    overflow: hidden;
+}
+
+.skill-box .skill-progress .progress-bar {
+    height: 100%;
+    line-height: 25px;
+    text-align: center;
+    color:black;
+    font-weight: bold;
+}
